@@ -1,5 +1,5 @@
 # GrossPlayer
-![GrossPlayer](https://github.com/user-attachments/assets/e94a7a65-3216-453d-b2d7-e4dba22870ab)
+![GrossPlayer](https://github.com/user-attachments/assets/a424c1ef-ee19-4407-9728-a4e8574e6307)
 <br>
 GrossPlayer Module made by Grosstofu
 <br>
