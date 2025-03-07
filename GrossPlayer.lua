@@ -202,6 +202,9 @@ end
 
 function GrossPlayer:ResetCameraPosition(Player:Player)
 	DetectPlayerProperty(Player)
+	if not game:GetService("RunService"):IsClient() then
+		error("Module must requried on clinet.")
+	end
 	workspace.CurrentCamera.CameraType = Enum.CameraType.Custom
 end
 
