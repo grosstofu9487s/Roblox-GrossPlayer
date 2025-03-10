@@ -65,7 +65,7 @@ end
 
 function GrossPlayer:TeleportToObject(PlayerToBeTeleport:Player, TargetObject:Object)
 	DetectPlayerProperty(PlayerToBeTeleport)
-	if workspace:FindFirstChild(TargetObject) == false then
+	if workspace:FindFirstChild(TargetObject.Name) == false then
 		error("Can't find the object: "..TargetObject.Name.." in workspace.")
 	end
 	PlayerToBeTeleport.Character:FindFirstChild("HumanoidRootPart").Position = TargetObject.Position
