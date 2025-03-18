@@ -154,12 +154,12 @@ end
 
 function GrossPlayer:ResetWalkSpeed(Player:Player)
 	DetectPlayerProperty(Player)
-	Player.Character.Humanoid.WalkSpeed = 50
+	Player.Character.Humanoid.WalkSpeed = 16
 end
 
 function GrossPlayer:ResetJumpPower(Player:Player)
 	DetectPlayerProperty(Player)
-	Player.Character.Humanoid.JumpPower = 16
+	Player.Character.Humanoid.JumpPower = 50
 end
 
 function GrossPlayer:PlayAnimation(Player:Player, Animation:Animation)
